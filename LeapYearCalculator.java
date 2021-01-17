@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LeapYearCalculator {
+/*public class LeapYearCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -8,7 +8,7 @@ public class LeapYearCalculator {
         System.out.println("Enter year to check is its a leap year:");
         year = scanner.nextInt();
         System.out.println(isLeapYear(year));
-    }
+    }*/
 
     public static boolean isLeapYear(int year) {
         if (year <= 1 || year >= 9999) {
